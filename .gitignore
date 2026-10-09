@@ -1,0 +1,38 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+.vercel
+coverage/
+lcov.info
+.cov.txt
+
+# foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/*/31337/
+contracts/deployments/*.dryrun.json
+contracts/deployments/31337.json
+app/src/generated/deployments/31337.json
+
+# keys never live in this repo (Foundry keystores are in ~/.foundry/keystores)
+*.key
+*.pem
+keystore*/
+
+# local run logs / reports
+/.*.txt
+/.*.log
+/.slither.json
+contracts/broadcast/*/31337/
+contracts/cache/
+app/.env.local
+app/src/generated/deployments.ts
+contracts/broadcast/*/*/dry-run/
+*.recovery.lock

@@ -1,0 +1,95 @@
+{
+  "_source": "NYSE holiday & early-close calendar (https://www.nyse.com/markets/hours-calendars). Re-verify yearly; the keeper pushes these via MarketClock.setSessionOverrides (CALENDAR_ROLE). closeMinute 65535 = closed all day.",
+  "holidays": [
+    {
+      "date": "2026-11-26",
+      "etDay": 20783,
+      "closeMinute": 65535,
+      "name": "Thanksgiving Day"
+    },
+    {
+      "date": "2026-11-27",
+      "etDay": 20784,
+      "closeMinute": 780,
+      "name": "Day after Thanksgiving (early close)"
+    },
+    {
+      "date": "2026-12-24",
+      "etDay": 20811,
+      "closeMinute": 780,
+      "name": "Christmas Eve (early close)"
+    },
+    {
+      "date": "2026-12-25",
+      "etDay": 20812,
+      "closeMinute": 65535,
+      "name": "Christmas Day"
+    },
+    {
+      "date": "2027-01-01",
+      "etDay": 20819,
+      "closeMinute": 65535,
+      "name": "New Year's Day"
+    },
+    {
+      "date": "2027-01-18",
+      "etDay": 20836,
+      "closeMinute": 65535,
+      "name": "Martin Luther King Jr. Day"
+    },
+    {
+      "date": "2027-02-15",
+      "etDay": 20864,
+      "closeMinute": 65535,
+      "name": "Washington's Birthday"
+    },
+    {
+      "date": "2027-03-26",
+      "etDay": 20903,
+      "closeMinute": 65535,
+      "name": "Good Friday"
+    },
+    {
+      "date": "2027-05-31",
+      "etDay": 20969,
+      "closeMinute": 65535,
+      "name": "Memorial Day"
+    },
+    {
+      "date": "2027-06-18",
+      "etDay": 20987,
+      "closeMinute": 65535,
+      "name": "Juneteenth (observed)"
+    },
+    {
+      "date": "2027-07-05",
+      "etDay": 21004,
+      "closeMinute": 65535,
+      "name": "Independence Day (observed)"
+    },
+    {
+      "date": "2027-09-06",
+      "etDay": 21067,
+      "closeMinute": 65535,
+      "name": "Labor Day"
+    },
+    {
+      "date": "2027-11-25",
+      "etDay": 21147,
+      "closeMinute": 65535,
+      "name": "Thanksgiving Day"
+    },
+    {
+      "date": "2027-11-26",
+      "etDay": 21148,
+      "closeMinute": 780,
+      "name": "Day after Thanksgiving (early close)"
+    },
+    {
+      "date": "2027-12-24",
+      "etDay": 21176,
+      "closeMinute": 65535,
+      "name": "Christmas Day (observed)"
+    }
+  ]
+}

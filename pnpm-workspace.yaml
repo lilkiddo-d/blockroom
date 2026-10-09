@@ -1,0 +1,12 @@
+packages:
+  - app
+  - scripts
+  - config
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - bufferutil
+  - utf-8-validate
+  - keccak

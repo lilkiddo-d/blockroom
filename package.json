@@ -1,0 +1,24 @@
+{
+  "name": "blockroom",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Blockroom - RFQ + midpoint dark-pool desk for block trades of tokenized stocks on Robinhood Chain",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "contracts:build": "cd contracts && forge build",
+    "contracts:test": "cd contracts && forge test",
+    "contracts:coverage": "cd contracts && FORK_TESTS=false forge coverage --no-match-coverage \"(test|script)\" --report summary",
+    "contracts:slither": "cd contracts && slither . --config-file slither.config.json",
+    "abis": "node scripts/gen-abis.mjs",
+    "relay": "pnpm --filter @blockroom/scripts relay",
+    "mm-bot": "pnpm --filter @blockroom/scripts mm-bot",
+    "keeper": "pnpm --filter @blockroom/scripts keeper",
+    "dev": "pnpm --filter @blockroom/app dev",
+    "build": "pnpm abis && pnpm --filter @blockroom/app build",
+    "test": "pnpm contracts:test && pnpm --filter @blockroom/scripts test",
+    "typecheck": "pnpm -r typecheck",
+    "fork": "bash scripts/fork.sh"
+  }
+}

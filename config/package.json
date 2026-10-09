@@ -1,0 +1,26 @@
+{
+  "name": "@blockroom/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./chains": "./chains.ts",
+    "./eip712": "./eip712.ts",
+    "./protocol": "./protocol.ts",
+    "./abis": "./abis.ts",
+    "./market-holidays.json": "./market-holidays.json"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "peerDependencies": {
+    "viem": "^2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "viem": "^2.38.0"
+  }
+}

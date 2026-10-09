@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "blockroom-app",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": ["app/node_modules/next/dist/bin/next", "dev", "app", "-p", "3210"],
+      "port": 3210
+    }
+  ]
+}
